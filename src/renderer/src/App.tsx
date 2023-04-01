@@ -1,7 +1,5 @@
+import './styles/global.css';
+
 export function App() {
-  return (
-    <div>
-      <h1 style={{ fontFamily: 'Roboto' }}>Olá Mundo</h1>
-    </div>
-  );
+  return <h1 className="text-violet-400 font-bold text-4xl">Hello World</h1>;
 }
